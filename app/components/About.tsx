@@ -9,26 +9,28 @@ export default function About() {
                     <div className="md:w-1/3">
                         <Image
                             src="/images/profile.jfif?height=400&width=400"
-                            alt="André Soares"
+                            alt="André Luis"
                             width={400}
                             height={400}
                             className="rounded-full shadow-lg"
                         />
                     </div>
                     <div className="md:w-2/3">
+                        <h3 className="text-2xl font-semibold mb-4">André Luis</h3>
+                        <h4 className="text-xl text-gray-600 mb-6">Software Engineer | Full Stack Developer | Java | Spring</h4>
                         <p className="text-lg text-gray-700 mb-6">
-                            With over 5 years of experience in web development, I specialize in creating scalable and performant
-                            applications using modern technologies. My journey in tech started at XYZ University, where I earned my
-                            degree in Computer Science.
+                            With over 6 years of experience in technology, I specialize in system development, process automation, and
+                            data integration. My expertise lies in creating efficient, scalable, and secure solutions that optimize
+                            operations, reduce costs, and support decision-making.
                         </p>
                         <p className="text-lg text-gray-700 mb-6">
-                            I'm passionate about staying on the cutting edge of web development, constantly learning and adapting to
-                            new technologies. My expertise includes React, Node.js, Python, and cloud platforms like AWS and Google
-                            Cloud.
+                            Throughout my career, I've developed and implemented systems handling large volumes of data, ensuring
+                            accuracy and reliability. I excel in complex integrations, API development, and building automated
+                            workflows that facilitate communication between different platforms.
                         </p>
                         <p className="text-lg text-gray-700">
-                            When I'm not coding, you can find me contributing to open-source projects, writing tech articles, or
-                            exploring the great outdoors.
+                            I'm passionate about solving challenges with innovative, results-driven solutions, always seeking to
+                            improve processes and stay updated with the latest technological advancements.
                         </p>
                     </div>
                 </div>
