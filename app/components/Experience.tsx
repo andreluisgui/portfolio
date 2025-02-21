@@ -28,18 +28,18 @@ export default function Experience() {
                 "OpenShift",
             ],
         },
-        {
-            title: "IT Manager",
-            company: "Secretaria Municipal de Educação Teresina",
-            period: "November 2021 - February 2024",
-            description: "Managed IT operations for the Municipal Education Department of Teresina.",
-        },
-        {
-            title: "Systems Programmer",
-            company: "Secretaria Municipal de Educação Teresina",
-            period: "December 2019 - November 2021",
-            description: "Developed systems for Android mobile devices and Web projects using Java.",
-        },
+        // {
+        //     title: "IT Manager",
+        //     company: "Secretaria Municipal de Educação Teresina",
+        //     period: "November 2021 - February 2024",
+        //     description: "Managed IT operations for the Municipal Education Department of Teresina.",
+        // },
+        // {
+        //     title: "Systems Programmer",
+        //     company: "Secretaria Municipal de Educação Teresina",
+        //     period: "December 2019 - November 2021",
+        //     description: "Developed systems for Android mobile devices and Web projects using Java.",
+        // },
     ]
 
     return (

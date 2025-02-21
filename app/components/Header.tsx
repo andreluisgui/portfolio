@@ -9,7 +9,7 @@ export default function Header() {
                     André Soares
                 </Link>
                 <nav className="hidden md:flex space-x-6">
-                    {["About", "Portfolio", "Skills", "Blog", "Contact"].map((item) => (
+                    {["About", "Experience", "Portfolio", "Skills", "Education", "Contact"].map((item) => (
                         <Link
                             key={item}
                             href={`#${item.toLowerCase()}`}
@@ -19,7 +19,7 @@ export default function Header() {
                         </Link>
                     ))}
                 </nav>
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white">Download Resume</Button>
+                {/* <Button className="bg-blue-600 hover:bg-blue-700 text-white">Download Resume</Button> */}
             </div>
         </header>
     )

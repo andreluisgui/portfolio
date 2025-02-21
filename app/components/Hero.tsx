@@ -11,7 +11,7 @@ export default function Hero() {
                     Passionate full-stack developer with expertise in React, Node.js, and cloud technologies. I turn complex
                     problems into elegant, user-friendly solutions.
                 </p>
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white text-lg py-6 px-8">Explore My Work</Button>
+                {/* <Button className="bg-blue-600 hover:bg-blue-700 text-white text-lg py-6 px-8">Explore My Work</Button> */}
             </div>
         </section>
     )

@@ -13,7 +13,7 @@ export default function PortfolioImage({ src, alt, title }: PortfolioImageProps)
     const [isLoading, setLoading] = useState(true)
 
     return (
-        <div className="relative w-full h-48 bg-gray-200 rounded-t-xl overflow-hidden">
+        <div className="relative w-full h-full bg-gray-200 overflow-hidden">
             <Image
                 src={src || "/placeholder.svg"}
                 alt={alt}
@@ -25,7 +25,7 @@ export default function PortfolioImage({ src, alt, title }: PortfolioImageProps)
           duration-700 ease-in-out
           ${isLoading ? "grayscale blur-2xl scale-110" : "grayscale-0 blur-0 scale-100"}
         `}
-                onLoadingComplete={() => setLoading(false)}
+                onLoad={() => setLoading(false)}
             />
         </div>
     )
