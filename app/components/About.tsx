@@ -24,12 +24,12 @@ export default function About() {
                             operations, reduce costs, and support decision-making.
                         </p>
                         <p className="text-lg text-gray-700 mb-6">
-                            Throughout my career, I've developed and implemented systems handling large volumes of data, ensuring
+                            Throughout my career, I&apos;ve developed and implemented systems handling large volumes of data, ensuring
                             accuracy and reliability. I excel in complex integrations, API development, and building automated
                             workflows that facilitate communication between different platforms.
                         </p>
                         <p className="text-lg text-gray-700">
-                            I'm passionate about solving challenges with innovative, results-driven solutions, always seeking to
+                            I&apos;m passionate about solving challenges with innovative, results-driven solutions, always seeking to
                             improve processes and stay updated with the latest technological advancements.
                         </p>
                     </div>
