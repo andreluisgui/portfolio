@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // já desativa o uso do sharp para otimização de imagens
   },
-  outputFileTracing: false, // desativa o rastreamento de arquivos
 };
 
 export default nextConfig;
